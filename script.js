@@ -19,7 +19,7 @@ function solution (input) {
 			output.push(first + remainingPerms[j]);
 		}
 	}
-	return output;
+	return output.sort().reverse();
 }
 
 // some example inputs
